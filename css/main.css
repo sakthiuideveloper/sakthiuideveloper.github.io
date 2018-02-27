@@ -508,8 +508,8 @@ img {
   width: 120px;
   height: 120px;
   margin: 0 auto;
-  background: #fff;
-  padding: 25px;
+}
+.prf-img img {
   border-radius: 50%;
 }
 .abt-cnt .lft {
