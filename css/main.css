@@ -413,6 +413,9 @@ img {
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
 }
+p {
+  margin: 5px 0;
+}
 .clearfix:after {
   content: ".";
   display: block;
