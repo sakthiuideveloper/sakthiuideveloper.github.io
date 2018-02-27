@@ -495,12 +495,12 @@ img {
 }
 .pf-tit h1 {
   margin: 0;
-  color:#2196F3;
+  color:#fff;
   font-weight: 700;
   font-size: 4em;
 }
 .pf-tit .sub-txt {
- color: #2196F3;
+ color: #fff;
  font-size: 2em;
  display: block;
 }
