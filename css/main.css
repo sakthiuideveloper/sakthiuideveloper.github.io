@@ -495,12 +495,12 @@ img {
 }
 .pf-tit h1 {
   margin: 0;
-  color:#fff;
+  color:#2196F3;
   font-weight: 700;
   font-size: 4em;
 }
 .pf-tit .sub-txt {
- color: #fff;
+ color: #2196F3;
  font-size: 2em;
  display: block;
 }
@@ -519,6 +519,9 @@ img {
 .abt-cnt .rft {
   width: 75%;
   padding: 20px 10px;
+}
+.drup-ext a, .abt-des p{
+  color: #2196F3;
 }
 /**
  * Mobile Landscape only
