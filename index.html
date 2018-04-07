@@ -9,36 +9,225 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body class="cover fullscreen parallax">
+      <div id="loader-wrapper">
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+   </div>
       <div id="page">
         <div class="main cnt-h dtb">
-          <div class="nav">
-            <ul class="menu">
-              <li> <a class="inner-link" href="index.html">Home</a></li>
-              <li> <a class="inner-link" href="about.html">About Us</a></li>
-              <li> <a class="inner-link" href="skill.html">Skils</a></li>
-              <li> <a class="inner-link" href="works.html">Projects</a></li>
-              <li><a class="inner-link" href="contact.html">Contact ME</a></li>
-            </ul>
-          </div>
-          <div class="pf-cnt vlm">
-            <div class="prf-img"><div class="usr-img"><img src="img/sakthi_user-profile.jpg" /></div></div>
-             <div class="pf-tit">
-               <h1>Sakthivel M</h1>
-               <span class="sub-txt">UI Developer</span>
-             </div>
+          <header id="pageHeader" class="header">
+            <div class="container pg-wdth dpr dpl">
+              <div class="hd-iner clearfix dpt dpb">
+                <div class="logo fl">
+                  <a class="navbar-brand" href="/"></a>
+                </div>
+              <div class="mn-wrp fr">
+                <div class="mn-ico tp-hd"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <nav id="myNavbar" class="navbar">
+                  <div class="menu_ics tp-hd"><i class="fa fa-times" aria-hidden="true"></i></div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">HOME</a></li>
+                    <li class=""><a href="#about">ABOUT</a></li>
+                    <li class=""><a href="#service">SKILL</a></li>
+                    <li class=""><a href="#portfolio">WORKS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            </div>
+          </header>
+          <section id="home">
+            <div class="slider-area home-bg bg-opacity" id="Particle-ground">
+                <div class="container">
+                  <div class="row">
+                    <div class="text am">
+                      <h1>Hi! I Am Sakthivel</h1>
+                      <h3>I am <span id="typed"></span><span class="typed-cursor"></span></h3>
+                    </div>
+                      <a href="#about" class="bounce downArrow"><i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+                  </div>
+              </div>
+            <canvas class="particles-js-canvas-el"></canvas></div>
+        </section>
+        <section id="about" class="section-padding">
+        <div class="container pg-wdth dpr dpl">
+          <div class="rows">
+              <div class="area-heading area-heading-style-two text-center">
+                <h2 class="hd-tit am">About Me</h2>
+                <div class="separator"></div>
+              <div class="about-text pt x-mt x-mb tit-h2">
+                  <P>Presently working as a UI Developer for Drupal Projects</P>
+                  <p> Around 4 years of experience in UI developer (HTML, HTML5, CSS, CSS3 and Jquery) </p>
+                  <p> ❖ Excellent problem solving skills with a strong technical background and good interpersonal
+                      skills.</p>
+                  <p> ❖ Quick learner and excellent team player, ability to meet tight deadlines and work under
+                      pressure.</p>
+                  <p> ❖ Conducted Internal Trainings on HTML5, CSS3 and Responsive Design.</p>
+                  <p> ❖ Adept at all phases of project lifecycle, including requirements gathering and user
+                  analysis to information architecture (IA), 
+                  testing, graphic user interface (GUI) design,and implementation</p>
+                  <p> ❖ Experience on Drupal 7 Content Management System.</p>
+                  <h2 class="pt pb ">Drupal Community Activity</h2>
+                  <p>Active participant in the drupal community by both contributing patches and also providing
+                  solutions to the issues reported in the community.</p>
+                  <p>❖ Contributed Drupal 8 Theme</p>
+                  <p>❖ Contributed patches for UI and Drupal 8.x core </p>
+                  <p>❖ Contributed patches for UI and Drupal 7</p>
+                  <p>❖ Activity participated in the review process of Project applications</p>
+                  <p>❖ Will be attending Drupal Sprints.</p>
+                  <p>❖ Will be attending local Sprints.</p>
+                  <p>Drupal Profile: <a href="https://www.drupal.org/u/sakthivel-m" target="_blank">https://www.drupal.org/u/sakthivel-m</a></p>
+                  <p>Drupal Theme : <a href="https://www.drupal.org/project/flexi" target="_blank">Flexi</a></p>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <section id="service" class="section-padding service">
+        <div class="container pg-wdth dpr dpl">
+          <div class="rows">
+              <div class="area-heading area-heading-style-two text-center">
+                <h2 class="hd-tit am">MY SKILL</h2>
+                <div class="separator"></div>
+              <div class="skl-txt pt x-mt x-mb tit-h2">
+                <P>❖ HTML 5</P>
+                <P>❖ CSS 3 </P>
+                <P>❖ SASS </P>
+                <P>❖ LESS </P>
+                <P>❖ JUQUERY </P>
+                <P>❖ HTML5 TEMPLATE </P>
+                <P>❖ DRUPAL CUSTOM THEME CREATION </P>
+                <P>❖ RESPONSIVE THEME CREATION </P>
+                <P>❖ ACCESSIBILITY </P>
+                <P>❖ SITE PERFORAMCE </P>
+                <h2 class="pt pb ">Framework: </h2>
+                <P>❖ DRUPAL 7 & DRUPAL 8 </P>
+                <P>❖ BOOSTRAP </P>
+                <P>❖ PURECSS </P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="section-padding portfolio">
+        <div class="container pg-wdth dpr dpl">
+          <h2 class="hd-tit am">WORKS</h2>
+          <div class="separator"></div>
+          <div class="sldr pt x-mt x-mb">
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/Bazaar.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="https://ar.harpersbazaararabia.com/" target="_blank">ar.harpersbazaararabia.com</a></h3>
+                  <p>ITP publishing is a Dubai-based publishing house. The company publishes magazines, organizes conferences, exhibitions and operates websites. harpers provides Hollywood news, pictures and videos to the Middle East audience. Phalcon framework and HTML5 Boilerplate front end framework</p>
+                  <a href="https://ar.harpersbazaararabia.com/" target="_blank">https://ar.harpersbazaararabia.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/arabic.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="http://arabic.arabianbusiness.com/" target="_blank">arabic.arabianbusiness.com</a></h3>
+                  <p>ITP publishing is a Dubai-based publishing house. The company publishes magazines, organizes conferences, exhibitions and operates websites. arabianbusiness provides Hollywood news, pictures and videos to the Middle East audience. Phalcon framework and HTML5 Boilerplate front end framework</p>
+                  <a href="http://arabic.arabianbusiness.com/" target="_blank">http://arabic.arabianbusiness.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/cosmo.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="https://www.cosmopolitanme.com/" target="_blank">cosmopolitanme.com</a></h3>
+                  <p>ITP publishing is a Dubai-based publishing house. The company publishes magazines, organizes conferences, exhibitions and operates websites. Cosmopolitan is an international fashion magazine for women.</p>
+                  <a href="https://www.cosmopolitanme.com/" target="_blank">https://www.cosmopolitanme.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/avineon.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="https://www.avineon.com/" target="_blank">avineon.com</a></h3>
+                  <p>Avineon uses business process management technology system to prepare, organize, manage, execute, and document emergency preparedness and incident management functions.
+The project was to use Drupal’s multi domain and multi lingual capabilities to deliver, customized content for different countries in different languages. A specific country's site was presented to the user based on geo IP integration.
+</p>
+                  <a href="https://www.avineon.com/" target="_blank">https://www.avineon.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/topline.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="http://www.toplinestrategies.com/" target="_blank">toplinestrategies.com</a></h3>
+                  <p>TopLine Strategies (TLS) is a company based in Arizona, delivering the complete integration and development of sales and marketing technologies to corporations and institutions. TLS marketing portal - www.toplinestrategies.com incorporates modern trends and contemporary design. The portal acts as a front end to multiple stakeholders, allows quick publishing of news and blogs, integrates with CRM backend. The content pages are integrated with social sharing features. The Site is Search engine optimized </p>
+                  <a href="http://www.toplinestrategies.com/" target="_blank">http://www.toplinestrategies.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/10k.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="http://www.fhh-10kchallenge.com/" target="_blank">fhh-10kchallenge.com</a></h3>
+                  <p>F​HH is a fitness awareness based program which conducts fitness health related programs. FHH site contains the various teams participations data, Daily steps, Midway Performance and Final Results.</p>
+                  <a href="http://www.fhh-10kchallenge.com/" target="_blank">http://www.fhh-10kchallenge.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/redbook.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="https://www.producemarketguide.com/" target="_blank">producemarketguide.com</a></h3>
+                  <p>The Produce Market Guide (PMG) is a resource for produce commodity information, fresh trends and data analysis. PMG is a product of The Packer, the fresh fruit and vegetable industry's leading source for news, information and analysis.</p>
+                  <a href="https://www.producemarketguide.com/" target="_blank">https://www.producemarketguide.com/</a>
+                </div>
+              </div>
+              <div class="vw-rw clearfix">
+                <div class="prf-lft">
+                  <img src="img/greenbook.png" />
+                </div>
+                <div class="prf-rft x-pl">
+                  <h3><a href="https://www.greenbook.net/" target="_blank">greenbook</a></h3>
+                  <p>On his west-central Missouri farm, Kyle Grumke and his father Ross employ cover crops on every one of their 550 owned acres. Greenbook works with pesticide, herbicide and fungicide manufacturers to convert product labels into actionable data.</p>
+                  <a href="https://www.greenbook.net/" target="_blank">https://www.greenbook.net/</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="contact" class="section-padding contact">
+        <div class="container pg-wdth dpr dpl">
+           <h2 class="hd-tit am">Contact Me</h2>
+          <div class="separator"></div>
+            <div class="abt-des am x-mt x-mb">
+            <p>Email: sakthiuideveloper@gmail.com</p>
+            <p>Phone: +91 9843816922</p>
+            </div>
+        </div>
+      </section>
+    </div>
       </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/particles.js"></script>
+        <script src="js/vendor/typed.min.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/plugins.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
