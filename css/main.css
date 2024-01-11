@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-bg {
-  background: rgba(255,255,255,0) url('../img/sakthi_user-profile.jpg');
+  /* background: rgba(255,255,255,0) url('../img/sakthi_user-profile.jpg'); */
   background-attachment: fixed;
   background-clip: initial;
   background-color: rgba(255,255,255,0);
