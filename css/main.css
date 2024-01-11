@@ -708,11 +708,15 @@ h1, h2, h3, h4, h5, h6 {
 * Service
 */
 .service, .contact {
-  background: #a4efc2;
+  background: #ceebda;
 }
 .slick-dots {
   padding: 30px 0;
   bottom: auto;
+}
+#portfolio,
+#about {
+  background: #dff4c3;
 }
 
 @media screen and (max-width: 767px) {
