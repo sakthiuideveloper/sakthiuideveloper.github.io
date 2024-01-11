@@ -43,7 +43,7 @@
     //Type js for text animation 
     
     var typed = new Typed('#typed', {
-      strings: ["a Front End Developer", "a UI/UX Designer. "],
+      strings: ["a Front End Developer", "a Drupal Frontend Developer. "],
       typeSpeed: 50,
       loop: true,
     });
